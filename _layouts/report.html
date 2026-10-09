@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} · 内容投稿月报</title>
+  <link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}">
+</head>
+<body class="report-page">
+  <nav class="report-nav">
+    <div class="shell">
+      <a href="{{ '/' | relative_url }}">← 返回月报首页</a>
+      <span>My Leisure Time Creator Program</span>
+    </div>
+  </nav>
+  <main class="markdown-report">
+    {{ content }}
+  </main>
+  <footer class="shell">My Leisure Time Creator Program · Monthly Reports</footer>
+</body>
+</html>
+
